@@ -66,5 +66,5 @@ The application uses the built-in **ASP.NET Identity** authentication system, wh
 
 ---
 
-> ℹ️ *This documentation is intended to provide an overview of SharePic’s functionality and database structure. For development and contribution guidelines, please refer to a CONTRIBUTING.md file (if available).*
+> ℹ️ *This documentation is intended to provide an overview of SharePic’s functionality and database structure.*
 
