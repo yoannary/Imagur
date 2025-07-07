@@ -1,0 +1,68 @@
+﻿@model ImgurCloneAuth.Models.PhotoViewModel
+@{
+    bool isUpvoted = Model.UserVoteType == ImgurCloneAuth.Models.VoteType.Upvote;
+    bool isDownvoted = Model.UserVoteType == ImgurCloneAuth.Models.VoteType.Downvote;
+
+    string upvoteClass = isUpvoted ? "btn-success" : "btn-outline-success";
+    string downvoteClass = isDownvoted ? "btn-danger" : "btn-outline-danger";
+}
+
+<div class="container w-75 mx-auto">
+    <h2 class="text-center pt-3 pb-3">@Model.Title</h2>
+    <div class="d-flex gap-2 justify-content-start mb-5">
+        @*form to PhotoUpvote POST method*@
+        @using (Html.BeginForm("Upvote", "Photo", new { id = Model.PhotoID }, FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn @upvoteClass text-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                </svg>
+                @Model.Upvotes
+            </button>
+        }
+
+        @*form to PhotoDownvote*@
+        @using (Html.BeginForm("Downvote", "Photo", new { id = Model.PhotoID }, FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn @downvoteClass">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                </svg>
+                @Model.Downvotes
+            </button>
+        }
+    </div>
+
+    <img src="@Url.Content("~/Images/" + Model.ImagePath)" alt="Photo" class="w-100" />
+    <div class="d-flex gap-2 justify-content-start mt-5">
+        @Html.ActionLink(
+            linkText: "Add a new photo",
+            actionName: "Create",
+            controllerName: "Photo",
+            routeValues: null,
+            htmlAttributes: new { @class = "btn btn-success" })
+
+        @*make a copy button that on click copies the url to the clipboard of the user*@
+        <button class="btn btn-secondary" onclick="copyToClipboard()">Copy URL</button>
+
+    </div>
+</div>
+@*
+    Go back button
+*@
+
+<script>
+    function copyToClipboard() {
+        var copyText = window.location.href;
+        navigator.clipboard.writeText(copyText);
+        alert("Copied the text: " + copyText);
+    }
+</script>
+
+<style>
+    .btn > svg{
+        vertical-align: unset;
+    }
+</style>

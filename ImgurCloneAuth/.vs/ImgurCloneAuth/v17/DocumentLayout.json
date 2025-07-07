@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|c:\\\u043D\u0431\u0443\\cscb766.net\\asp_f99557\\imgurcloneauth\\imgurcloneauth\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:imgurcloneauth\\app_start\\startup.auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Views\\Photo\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Controllers\\PhotoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Controllers\\PhotoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Views\\Photo\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E632C25-3D89-486A-BAF9-96A1F20B1C2D}|ImgurCloneAuth\\ImgurCloneAuth.csproj|solutionrelative:ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.Auth.cs",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\App_Start\\Startup.Auth.cs",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\App_Start\\Startup.Auth.cs",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\App_Start\\Startup.Auth.cs",
+              "RelativeToolTip": "ImgurCloneAuth\\App_Start\\Startup.Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T12:00:45.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Startup.cs",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Startup.cs",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Startup.cs",
+              "RelativeToolTip": "ImgurCloneAuth\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:15:25.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Index.cshtml",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Views\\Photo\\Index.cshtml",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Index.cshtml",
+              "RelativeToolTip": "ImgurCloneAuth\\Views\\Photo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T15:02:38.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "ImgurCloneAuth\\Controllers\\PhotoController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T15:02:38.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Create.cshtml",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Views\\Photo\\Create.cshtml",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Photo\\Create.cshtml",
+              "RelativeToolTip": "ImgurCloneAuth\\Views\\Photo\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T15:02:38.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ImgurCloneAuth\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T15:02:38.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\\u041D\u0411\u0423\\CSCB766.NET\\ASP_F99557\\ImgurCloneAuth\\ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ImgurCloneAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T15:02:38.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

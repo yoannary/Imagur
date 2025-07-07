@@ -1,0 +1,53 @@
+﻿@model ICollection<ImgurCloneAuth.Models.PhotoListingItemViewModel>
+
+<div class="container w-75 mx-auto">
+    <div class="row">
+        <div class="col-12 mb-2">
+            <h1 class="text-center">All Photos</h1>
+        </div>
+        @*if Model is empty show big message no photos*@
+        @if (Model.Count == 0)
+        {
+            <div class="col-12 mt-5 mb-5">
+                <h2 class="text-center text-secondary">No photos yet</h2>
+            </div>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-6 col-lg-4 col-xxl-3 mb-3 mt-3">
+                    <a href="@Url.Action("View", "Photo", new { id = item.PhotoID })">
+                        <img src="@Url.Content("~/Images/" + item.ImagePath)" alt="Photo" class="img-thumbnail" />
+                    </a>
+                    <div class="d-flex justify-content-between flex-sm-row flex-column">
+                        <span class="w-50" style="word-break: break-word">
+                            <strong>
+                                @item.Title
+                            </strong>
+                        </span>
+                        <div>
+                            <span class="text-success">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                                </svg>
+                                @item.Upvotes
+                            </span>
+                            <span class="text-danger">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                </svg>
+                                @item.Downvotes
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+<style>
+    .btn > svg {
+        vertical-align: unset;
+    }
+</style>
