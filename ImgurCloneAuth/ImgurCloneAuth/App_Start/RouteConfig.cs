@@ -18,20 +18,6 @@ namespace ImgurCloneAuth
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-
-           /* //PhotoUpvote
-            routes.MapRoute(
-                               name: "PhotoUpvote",
-                                              url: "Photo/View/{id}/Upvote",
-                                                             defaults: new { controller = "Photo", action = "Upvote", id = UrlParameter.Optional }
-                                                                        );
-
-            //PhotoDownvote
-            routes.MapRoute(
-                                              name: "PhotoDownvote",
-                                                                                           url: "Photo/View/{id}/Downvote",
-                                                                                                                                                       defaults: new { controller = "Photo", action = "Downvote", id = UrlParameter.Optional }
-                                                                                                                                                                                                                              ); */
         }
     }
 }
