@@ -41,8 +41,6 @@ namespace ImgurCloneAuth.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Configure the relationships between Photo and Vote entities, with Vote only having PhotoId and UserId as the primary key, and does not have Photo and User as navigation properties
-           
-
             modelBuilder.Entity<Photo>()
                 .HasMany(p => p.Votes)
                 .WithRequired(v => v.Photo)

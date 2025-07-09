@@ -51,12 +51,6 @@ namespace ImgurCloneAuth.Models
                 .WithMany()
                 .HasForeignKey(v => v.PhotoId)
                 .WillCascadeOnDelete(false);
-
-            /*modelBuilder.Entity<Vote>()
-                .HasRequired(v => v.User)
-                .WithMany()
-                .HasForeignKey(v => v.UserId)
-                .WillCascadeOnDelete(false);*/
         }
 
         public Vote FindByPhotoAndUser(int PhotoId, string UserId)
